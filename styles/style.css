@@ -1,0 +1,13 @@
+.main-header {
+  color: #535ffb;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
