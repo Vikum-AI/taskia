@@ -1,0 +1,28 @@
+.custom-primary {
+  background-color: #535ffb;
+  border: 1px solid #535ffb;
+  border-radius: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.custom-primary:hover {
+  background-color: #4551f9;
+}
+
+.custom-secondary {
+  border: 2px solid #535ffb;
+  border-radius: 2rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  color: #535ffb;
+}
+
+.custom-secondary:hover {
+  background-color: #4551f9;
+  border: 2px solid #535ffb;
+}
