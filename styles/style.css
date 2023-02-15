@@ -64,14 +64,17 @@
 
 .card-1 {
   background-color: #535ffb;
+  border-radius: 20px;
 }
 
 .card-2 {
   background-color: #85cbf1;
+  border-radius: 20px;
 }
 
 .card-3 {
   background-color: #e9da68;
+  border-radius: 20px;
 }
 
 .card-1 .card-body{
@@ -85,6 +88,23 @@
 .card-3 .card-body{
   color: white;
 }
+
+.ipad{
+  display: flex;
+  align-items: center;
+}
+
+.info-section{
+  margin-top: 90px;
+}
+
+.info-heading{
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1e1c24;
+  margin-bottom: 1rem;
+}
+
 
 
 
