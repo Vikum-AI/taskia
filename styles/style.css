@@ -55,3 +55,39 @@
 .trial-input {
   margin-right: 1rem;
 }
+
+.hero-heading{
+  font-weight: 800;
+  color: #1e1c24;
+  margin-bottom: 1rem;
+}
+
+.card-1 {
+  background-color: #535ffb;
+}
+
+.card-2 {
+  background-color: #85cbf1;
+}
+
+.card-3 {
+  background-color: #e9da68;
+}
+
+.card-1 .card-body{
+  color: white;
+}
+
+.card-2 .card-body{
+  color: white;
+}
+
+.card-3 .card-body{
+  color: white;
+}
+
+
+
+
+
+
