@@ -60,7 +60,7 @@
   margin-right: 1rem;
 }
 
-.hero-heading{
+.hero-heading {
   font-weight: 800;
   color: #1e1c24;
   margin-bottom: 1rem;
@@ -90,41 +90,41 @@
   max-width: 22rem;
 }
 
-.card-1 .card-body{
+.card-1 .card-body {
   color: white;
 }
 
-.card-2 .card-body{
+.card-2 .card-body {
   color: white;
 }
 
-.card-3 .card-body{
+.card-3 .card-body {
   color: white;
 }
 
-.ipad{
+.ipad {
   display: flex;
   align-items: center;
 }
 
-.info-section{
+.info-section {
   margin-top: 90px;
 }
 
-.info-heading{
+.info-heading {
   font-size: 2rem;
   font-weight: 900;
   color: #1e1c24;
   margin-bottom: 1rem;
 }
 
-.info-section_2{
+.info-section_2 {
   margin-top: 90px;
 }
 
-.info-section_1{
+.info-section_1 {
   margin-top: 90px;
-  margin-bottom:10rem ;
+  margin-bottom: 10rem;
 }
 
 .flex-container {
@@ -132,10 +132,37 @@
   margin-top: 4rem;
 }
 
-footer{
+footer {
   margin-top: 90px;
 }
 
+.image-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.avatar-one {
+  height: max-content;
+  margin-bottom: 20rem;
+}
+
+.avatar-two {
+  height: max-content;
+  margin-top: 11rem;
+}
+
+.avatar {
+  height: 15rem;
+}
+
+.number-text {
+  font-size: 6rem;
+}
+
+.avatar-image {
+  height: 20rem;
+}
 
 @media screen and (max-width: 992px) {
   .flex-container {
@@ -144,6 +171,17 @@ footer{
   }
 }
 
+@media screen and (max-width: 960px) {
+  .image-section {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .avatar-one {
+    margin-bottom: 0;
+  }
 
-
+  .avatar-two {
+    margin-top: 0;
+  }
+}
